@@ -12,10 +12,10 @@ import lcd
 from math import sqrt,log
 
 #API keys
-key = 'Apiw2TmQUhef0WfO2jFf7x8SJ'
-sec = '2X0qjkZwFFWfSls2VGV29i9jNzWsDzrZTYAGlWqL9bqyI80n8n'
-token = '4245336989-CPrlzt40WRR5AffkorI7yI7uDsNnE2TlTx7191j'
-tokenS = 'Py8M936CSd96PkkdJWu2ZHF5j85a2EcFn0koBwS9vMzXf'
+key = 'API key'
+sec = 'API secrey'
+token = 'Token key'
+tokenS = 'Token secret'
 
 auth = tweepy.OAuthHandler(key,sec)
 auth.set_access_token(token,tokenS)
